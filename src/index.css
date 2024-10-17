@@ -43,10 +43,28 @@ h1 {
   gap: 8px;
   margin-top: 16px;
 }
+.projcet-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
 
 .skill {
   padding: 2px 12px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.project {
+  padding: 2px 12px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
   display: flex;
   align-items: center;
   gap: 8px;
